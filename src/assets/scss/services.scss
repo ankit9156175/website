@@ -1,0 +1,226 @@
+// mission section
+.headText{
+    font-family: $font;
+    font-weight: 700;
+    font-size: 5vw;
+    text-align: center;
+    color:$text-link;
+}
+.tileDiscription{
+    font-family: $font;
+    font-weight: 400;
+    text-align: justify;
+    color: $textBlack;
+    font-size: 1.2vw;
+    text-align: justify;
+
+    span{
+        font-weight: 700;
+        font-size: 1.4vw;
+    }
+}
+.ulHead{
+    font-size: 1.3vw;
+    font-weight: 600;
+}
+
+//mission section ends
+
+// service about us 
+.smallHeadText{
+    font-family: $font;
+    font-weight: 900;
+    font-size: 4vw;
+    text-align: center;
+    color:$text-link;
+}
+.companyHeadText{
+    color: $text-link;
+    font-size:3vw;
+    font-weight: 900;
+    font-family: $font;
+    letter-spacing: .5px;
+}
+
+// service about us ends
+
+// service package
+
+.packageHead{
+    color: $text-link;
+    font-size:1.8vw;
+    text-align: center;
+    font-weight: 700;
+    font-family: $font;
+    letter-spacing: .5px;
+}
+.packageText{
+    color:$textBlack;
+    font-size: 0.9vw;
+    font-family: $font;
+    text-align: left;
+}
+.serviceCard{
+    width: 22%;
+    // margin: .2rem;
+    // border: 1px #FFFFFF solid;
+    // border: 1px solid rgba(0, 34, 51, 0.1);
+    // box-shadow: 1px 1px 8px #000000;
+    border: 1px solid $cardBorder;
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.08), 2px 4px 10px 0 rgba(0, 34, 51, 0.08);
+    cursor: pointer;
+    
+    div{
+        text-align: center;
+    }
+    span{
+        color: $text-link;
+        font-size:1.8vw;
+        text-align: center;
+        font-weight: 700;
+        font-family: $font;
+        letter-spacing: .5px;
+    }
+
+    ul{
+        color:$textBlack;
+        font-size: 0.9vw;
+        font-family: $font;
+        text-align: left;
+        font-weight: 700;
+    }
+
+    &:hover{
+        background-color: $text-link;
+        border: 1px solid $cardBorder;
+        box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+        span{
+            color: $textColor;
+        }
+        ul{
+            color:$textColor;
+        }
+
+    }
+}
+
+.packageContainer:hover .serviceCard:not(:hover){
+    filter: blur(4px);
+}
+
+// get Touch section
+
+.companySubHeadtext{
+    color: $textGrey;
+    font-size:2.5vw;
+    font-weight: 600;
+    font-family: $font;
+    letter-spacing: .5px;
+    font-style: italic;
+}
+
+.getTouch{
+    background-color: $cream;
+}
+.homeFormBtn{
+    width: 100%;
+    background-color: $text-link;
+    font-family: $font;
+    font-weight: 900;
+    transition: 1ms;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+@media only screen and(max-width:767px)
+{
+.submitBtn{
+    width: 50%;
+    margin-left: 25%;
+}
+}
+
+.btn-primary:hover{
+    background-color: $text-link;
+}
+
+// team
+.teamCard{
+    border: 1px solid rgba(0, 34, 51, 0.1);
+    box-shadow: 2px 4px 10px 0 rgba(0, 34, 51, 0.05), 2px 4px 10px 0 rgba(0, 34, 51, 0.05);
+}
+.teamSubHead{
+    text-align: center;
+    color: $text-link;
+    font-family: $font;
+    font-weight: 900;
+    font-size: 1.2vw;
+}
+.teamDiscription{
+    text-align: justify;
+    color: $textBlack;
+    font-family: $font;
+    font-size: 1vw;
+}
+.teamInfoContainer{
+    background-image: url('../images/home/discription/teamBackground.png');
+    background-size: cover;
+}
+
+// get carousel
+
+.carouselContainer{
+    background-color: $cream;
+}
+.extraSmallHeadText{
+    font-family: $font;
+    font-weight: 900;
+    font-size: 3vw;
+    text-align: center;
+    color:$text-link;
+}
+
+.carouView{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styling-example .rec.rec-arrow {
+    background-color: transparent;
+    color: $text-link;
+    box-shadow: none;
+}
+.styling-example .rec.rec-arrow:hover{
+    background-color: $text-link;
+    color: $textColor;
+    box-shadow: 0 0 2px 0 $text-link;
+}
+.styling-example .rec.rec-arrow:focus{
+    background-color: $text-link;
+    color: $textColor;
+    box-shadow: none;
+}
+//media Query for small screen size font
+@media only screen and (max-width: 600px) {
+    .font-mobile-biggerr{
+        font-size: 5.4vw !important;
+        letter-spacing: .1rem;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .font-mobile-biggerrr{
+        font-size: 4.8vw !important;
+        letter-spacing: .1rem;
+    }
+  }
+  .homeFormBtnn{
+    border: none;
+    width: 100%;
+    background-color: $textOrange;
+    font-family: $font;
+    font-weight: 900;
+    transition: 1ms;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}

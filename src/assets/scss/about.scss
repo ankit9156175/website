@@ -1,0 +1,79 @@
+.discpImgText{
+    span{
+        font-size: 6.5vw;
+        font-weight: 400;
+        font-family: $font;
+        color: $text-link;
+    }
+}
+.discpSubText{
+    font-size: 2vw;
+    font-family: $font;
+    text-align: center;
+}
+.hr{
+    border: 2px solid $text-link;
+}
+.discpHeadMobileText{
+    span{
+        font-weight: 500;
+        font-family: $font;
+        color: $text-link;
+        font-size: 6.1vw;
+    }
+}
+
+.smalltileDiscription{
+    font-family: $font;
+    font-weight: 400;
+    text-align: justify;
+    color: $textBlack;
+    font-size: 1vw;
+    text-align: justify;
+
+    span{
+        font-weight: 700;
+        font-size: 1.4vw;
+    }
+}
+.smallcompanyHeadText{
+    color: $text-link;
+    font-size:1.8vw;
+    font-weight: 900;
+    font-family: $font;
+    letter-spacing: .5px;
+}
+
+.companySubHeadText{
+    color: $textGrey;
+    font-size:4.5vw;
+    font-weight: 600;
+    font-family: $font;
+    letter-spacing: .5px;
+    font-style: italic;
+}
+.fontSize{
+    font-size: 2vw;
+}
+
+.listText{
+    font-weight: 600;
+    font-family: $font;
+    font-size: 1.4vw;
+}
+
+.listTitle{
+    font-weight: 800;
+    font-family: $font;
+    font-size: 3.2vw;
+    letter-spacing: .2rem;
+}
+
+.listSubText{
+    font-weight: 600;
+    font-family: $font;
+    font-size: 1.4vw;
+}
+.backColor{
+    background-color: $cream;
+}

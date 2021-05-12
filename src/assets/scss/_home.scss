@@ -1,0 +1,64 @@
+.discpHead{
+    font-size: 5.3vw;
+    color: $text-link;
+    font-weight: 900;
+}
+.bold-text{
+    font-weight: bold;
+}
+.orangeColor{
+    color: $text-link;
+    font-weight: 900;
+}
+.orangeLight{
+    color:$textOrange;
+    font-weight: bold;
+}
+.discpList{
+    text-align: justify;
+    padding-left:15px ;
+    li::marker{
+        color: $text-link;
+        margin: 0;
+    }
+}
+.text-size{
+    font-size: larger;
+}
+
+.serviceHeadText{
+    font-size: 4.3vw;
+    color: $text-link;
+    font-weight: 900;
+}
+@media only screen and(max-width:600px){
+    .serviceHeadText{
+        font-size: 5.5vw;
+        color: $text-link;
+        font-weight: 900;
+    }
+}
+
+.companyHeadText{
+    font-size: 2.2vw;
+    color: $text-link;
+    font-weight: 900;
+}
+.tileDiscription{
+    font-size: 1.2vw;
+    text-align: justify;
+    font-weight: 700;
+}
+.companyHeadTextMobile{
+    font-size: 6vw;
+    color: $text-link;
+    font-weight: 900;
+}
+.tileDiscriptionMobile{
+    font-size: 4.8vw;
+    text-align: justify;
+}
+
+.brandContainer{
+    background-color: $cream;
+}

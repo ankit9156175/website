@@ -1,0 +1,75 @@
+.e-text{
+    color: #F4802D;
+}
+.under-line{
+    border-width: .2rem;
+    border-color: $textOrange;
+    width: 12rem;
+}
+.para{
+    font-family: Arial;
+    font-size: x-large;
+}
+@media only screen and(max-width:600px){
+.para{
+    font-family: Arial;
+    font-size: large;
+}
+}
+.position-card{
+    border: 1px solid #D8D8D8;
+    // width: 30%;
+}
+.position-card:hover{
+    color: white;
+    background-color: #F4802D; 
+}
+.detail{
+    font-size: small;
+}
+.perk-element-box{
+    // width:20%;
+    height: 200px;
+}
+.list-req{
+    color: $textOrange;
+    list-style-type: square;
+    margin-left:100px;
+}
+li span{
+    font-size: large;
+    font-weight: bold;
+    color: #929292;
+}
+.pos-container:hover .position-card:not(:hover){
+    filter: blur(4px);
+}
+.text-color{
+    color:$textColor;
+}
+.body-color{
+    background-color: $textOrange;
+}
+.text-orange{
+    color:$text-link;
+}
+.text-light-org{
+    color: $textOrange;
+    font-size: 3vw;
+    letter-spacing: .1rem;
+}
+@media only screen and(max-width:600px){
+    .text-light-org{
+        color: $textOrange;
+        font-size: 5.4vw;
+        letter-spacing: .1rem;
+    }
+}
+.EqualText{
+    font-size: 4.5vw;
+}
+@media only screen and (max-width:600px){
+ .EqualText{
+     font-size: 7.4vw;
+ }
+}

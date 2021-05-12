@@ -1,0 +1,22 @@
+.carouView{
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styling-example .rec.rec-arrow {
+    background-color: transparent;
+    color: $text-link;
+    box-shadow: none;
+}
+.styling-example .rec.rec-arrow:hover{
+    background-color: $text-link;
+    color: $textColor;
+    box-shadow: 0 0 2px 0 $text-link;
+}
+.styling-example .rec.rec-arrow:focus{
+    background-color: $text-link;
+    color: $textColor;
+    box-shadow: none;
+}

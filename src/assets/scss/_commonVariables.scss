@@ -1,0 +1,37 @@
+//fonts
+$font: Arial;
+
+// font variants
+// $text-link: rgba(255, 115, 0, 0.904);
+$text-link:#f4802d;
+$textBlack: #303030;
+$textColor: #ffffff;
+$textOrange:#F58E44;
+$textGrey: #929292;
+
+
+//container background
+$grey: #F2F4F9;
+$black: #494747;
+$cream:  #FEF2EA;
+
+// card Colors
+$cardBorder: rgba(0, 34, 51, 0.1);
+
+//whatsapp icon
+.float{
+	position:fixed;
+	width:55px;
+	// height:45px;
+	bottom:80px;
+	right:50px;
+	background-color:#25d366;
+	// color:#FFF;
+	border-radius:15px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1;
+}
+// .margin{
+// 	margin-left: 0;
+// 	margin-right: 0;
+// }

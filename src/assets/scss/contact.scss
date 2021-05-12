@@ -1,0 +1,17 @@
+.brdr{
+    border-right: 2px solid $text-link;
+}
+.font-color{
+    color: $text-link;
+    font-weight: 900;
+}
+.height{
+    height: 100px;
+}
+.homeName{
+    outline: none;
+    border: none;   
+    border-radius: unset;
+    border-bottom: 2px solid black;
+    background-color: $cream;
+}

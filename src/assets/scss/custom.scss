@@ -1,0 +1,43 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./commonVariables";
+
+body{
+    font-family: $font;
+    user-select: none;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background: $textOrange;
+    border-radius: 3px;
+    height: 200px;
+}
+.font-mobile-bigger{
+    font-size: 5.4vw !important;
+    letter-spacing: .1rem;
+}
+.font-mobile-extra-bigger{
+    font-size: 6.4vw !important;
+}
+.font-mobile-medium{
+    font-size: 3.2vw !important;
+}
+.font-mobile-text{
+    font-size: 4.8vw !important;
+}
+.cursor{
+    cursor: pointer;
+}
+.footerText{
+    a{
+        color: white;
+        text-decoration: none;
+    }
+}
+.tick{
+    list-style-image:url('../images/amazon-global-img/tick.svg')
+}

@@ -1,0 +1,51 @@
+.footerContainer{
+    background-color: #494747;
+    // height: 45.5vw;
+}
+.footerHeadText{
+    color: #F58E44;
+    font-family: Arial;
+    font-weight: 600;
+    // font-size: 1.3vw;
+    font-size: 1.45vw;
+    letter-spacing: 2px;
+}
+.footerText{
+    color: #ffffff;
+    font-family: Arial;
+    // font-size: 1.1vw;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.trash{
+    height:100px;
+}
+//mobile view style
+.textTouch{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: xx-large;
+}
+.footerHeadText-m{
+    color: #F58E44;
+    font-family: Arial;
+    font-weight: 600;
+    // font-size: 1.3vw;
+    font-size:large;
+    letter-spacing: 2px;
+}
+.footerText-m{
+    p{
+        font-weight: initial;
+    }
+    color: #ffffff;
+    font-family: Arial;
+    // font-size: 1.1vw;
+    font-size: auto;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.pointer{
+    cursor: pointer;
+}
