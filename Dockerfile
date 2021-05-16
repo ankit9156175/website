@@ -6,8 +6,8 @@ COPY . /app
 
 RUN npm install
 
-EXPOSE 9005
+EXPOSE 8080 80
 
-ENTRYPOINT [ "node" ]
-CMD ["server.js"]
+
+CMD ["npm", "start"]
 #CMD ["npm","start"]
